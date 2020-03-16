@@ -76,15 +76,9 @@ main {
     padding-top: 15px;
 }
 
-.aside_right h4:after {
-    content: "";
-    position: absolute;
-    background-color: #9A9A9A;
-    height: 2px;
+.after_title {
     width: 150px;
-    left: 50%;
-    transform: translateX(-50%);
-    top: 40px;
+    color: #9A9A9A;
     border-bottom: 1px solid #fff;
 }
 
