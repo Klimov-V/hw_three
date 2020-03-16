@@ -72,7 +72,7 @@ main {
     text-align: center;
 }
 
-.aside_right p {
+.aside_right p:first-of-type {
     padding-top: 20px;
 }
 
@@ -88,19 +88,12 @@ main {
     border-bottom: 1px solid #fff;
 }
 
-.aside_right p:not(:last-child):after {
-    content: "";
-    position: absolute;
-    background-color: #BDBDBD;
-    height: 2px;
+
+hr {
     width: 150px;
-    left: 50%;
-    transform: translateX(-50%);
+    color: #BDBDBD;
     border-bottom: 1px solid #fff;
-    line-height: inherit;
 }
-
-
 
 
 footer {
