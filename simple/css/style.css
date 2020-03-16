@@ -1,0 +1,26 @@
+body {
+  font-family: sens-serif;
+  font-size: 18px;
+}
+.title {
+  text-align: center;
+  background-color: #a52a2a;
+  color: #fff;
+}
+
+.cars {
+  text-align: center;
+}
+.car_img {
+  border: 3px dashed #000;
+}
+.color_primary {
+  color: #0000ff;
+}
+
+.copyright {
+  font-size: 20px;
+  text-align: center;
+  color: #fff;
+  background-color: #000;
+}
