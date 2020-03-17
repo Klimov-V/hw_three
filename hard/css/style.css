@@ -8,9 +8,11 @@ h1,
 h3 {
     display: none;
 }
-
+header {
+    text-align: center;
+}
 header img {
-    width: 100%;
+    max-width: 100%;
 }
 
 ul {
@@ -34,13 +36,20 @@ nav a {
     display: inline-block;
     font-size: 1.5rem;
 }
+nav li {
+    max-width: 20%;
+}
 
 main {
     display: flex;
 }
+.main_section {
+    
+    width: 60%;
+}
 
 .aside_left {
-    width: 30%;
+    width: 20%;
     background-color: #7D0909;
 }
 
@@ -63,6 +72,7 @@ main {
     background-color: #E3DDDD;
     color: #000;
     position: relative;
+    width: 20%;
 }
 
 .aside_right h4 {
