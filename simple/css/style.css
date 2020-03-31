@@ -18,9 +18,12 @@ body {
   color: #0000ff;
 }
 
-.copyright {
+.footer {
   font-size: 20px;
   text-align: center;
   color: #fff;
   background-color: #000;
+}
+.head_bg {
+  text-align: center;
 }

@@ -24,7 +24,7 @@ nav ul {
     justify-content: space-around;
     align-items: center;
     background-color: #000;
-
+    padding-left: 0;
 }
 
 nav a {
@@ -44,8 +44,8 @@ main {
     display: flex;
 }
 .main_section {
-    
     width: 60%;
+    padding: 15px;
 }
 
 .aside_left {
@@ -55,8 +55,8 @@ main {
 
 .aside_left ul,
 .aside_right {
-    padding: 0;
-    margin: 0;
+    padding: 10px;
+    margin: 10px;
 }
 
 .aside_left a {
